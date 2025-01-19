@@ -1,0 +1,20 @@
+{
+  "callback_port": 5050,
+  "client": {
+    "id_env": "SPOTIFY_CLIENT_ID",
+    "secret_env": "SPOTIFY_CLIENT_SECRET"
+  },
+  "show_dialog": false,
+  "scope": [
+    "user-read-playback-state",
+    "user-read-currently-playing",
+    "playlist-read-private",
+    "playlist-read-collaborative",
+    "user-follow-read",
+    "user-read-playback-position",
+    "user-top-read",
+    "user-read-recently-played",
+    "user-library-read"
+  ],
+  "runtime": {}
+}
